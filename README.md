@@ -21,3 +21,7 @@ fun String.ofStepFromAtoZ(step: Int): String {
 }
 
 ```
+
+B. For the part of using ASCII to solve this problem the disadvantage is: 
+We need to loop and compare every single charactor of string again the 26 characters.
+The more of the step and the more of string value the more time it will take. 
