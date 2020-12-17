@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_12">10dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="slider_space">320dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+</resources>

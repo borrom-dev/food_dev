@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/space_12"
+    android:paddingRight="@dimen/space_12">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/pizza_001"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail"
+        app:layout_constraintLeft_toRightOf="@id/thumbnail"
+        app:layout_constraintRight_toLeftOf="@id/txt_price"
+        app:layout_constraintTop_toTopOf="@id/thumbnail"
+        tools:text="Water Shrimp" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/space_12"
+        android:layout_marginRight="@dimen/space_12"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail"
+        app:layout_constraintLeft_toRightOf="@id/txt_title"
+        app:layout_constraintRight_toLeftOf="@id/btn_remove"
+        app:layout_constraintTop_toTopOf="@id/thumbnail"
+        tools:text="200 USD" />
+
+    <TextView
+        android:id="@+id/btn_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/space_12"
+        app:drawableStartCompat="@drawable/ic_baseline_close_24"
+        app:layout_constraintBottom_toBottomOf="@id/thumbnail"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/thumbnail"
+        tools:ignore="ContentDescription" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+    <string name="hello_world">Hello World</string>
+    <string name="txt_add_cart_plus">added +1</string>
+    <string name="txt_200_usd">200 USD</string>
+    <string name="txt_100_grams_40_pieces">100 grams, 40 pieces</string>
+    <string name="txt_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis purus, eleifend vel justo sed, lobortis consectetur erat.</string>
+    <string name="txt_spicy">Spicy</string>
+    <string name="txt_filter">Filter</string>
+    <string name="txt_sugar_free">Sugar Free</string>
+    <string name="txt_zero">{0}</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_cart_empty">Empty Cart</string>
+</resources>
